@@ -1,0 +1,297 @@
+---
+title: "DS4999 Course Syllabus Fall 2023"
+author: "Holly Steeves"
+format: 
+  html: 
+    number-sections: true
+    toc: true
+    theme: 
+      light: flatly
+      dark: darkly
+editor: visual
+bibliography: references.bib
+---
+
+# Course Information
+
+## Class Information
+
+Term: Fall 2023
+
+Location: MC 204
+
+Lectures: F 4:30 - 5:30 Biweekly
+
+## List of Prerequisites
+
+Registration in the Honours Specialization in Data Science. [Data Science 3000A/B](https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=MAIN_029875_1&SelectedCalendar=Live&ArchiveID=) (or former Computer Science 4414A/B, the former Statistical Sciences 3850F/G, the former Software Engineering 4460A/B). 1.5 courses from [Computer Science 3319A/B,](https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=MAIN_003402_1&SelectedCalendar=Live&ArchiveID=) [Computer Science 3340A/B,](https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=MAIN_003719_1&SelectedCalendar=Live&ArchiveID=) [Statistical Sciences 3843A/B,](https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=MAIN_022444_1&SelectedCalendar=Live&ArchiveID=) [Statistical Sciences 3859A/B,](https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=MAIN_008678_1&SelectedCalendar=Live&ArchiveID=) [Statistical Sciences 3860A/B,](https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=MAIN_027766_1&SelectedCalendar=Live&ArchiveID=) [Statistical Sciences 4850F/G](https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=MAIN_009082_1&SelectedCalendar=Live&ArchiveID=).
+
+## List of Antirequisites
+
+[Computer Science 3380F/G/Z,](https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=MAIN_012375_1&SelectedCalendar=Live&ArchiveID=) [Computer Science 4460Z,](https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=MAIN_017877_1&SelectedCalendar=Live&ArchiveID=) [Computer Science 4480Y,](https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=MAIN_019931_1&SelectedCalendar=Live&ArchiveID=) [Computer Science 4470Y,](https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=MAIN_013690_1&SelectedCalendar=Live&ArchiveID=) [Computer Science 4490Z,](https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=MAIN_012180_1&SelectedCalendar=Live&ArchiveID=) Statistical Science 4999F/G/Z, Actuarial Sciences 4997F/G/Z, [Financial Modelling 4998F/G/Z](https://www.westerncalendar.uwo.ca/Courses.cfm?CourseAcadCalendarID=MAIN_026055_1&SelectedCalendar=Live&ArchiveID=).
+
+## Instructor Information
+
++------------+-------------------+------------------+----------+---------------------+---------------+
+| Position   | Name              | Email            | Office   | Phone               | Office Hours  |
++============+===================+==================+==========+=====================+===============+
+| Instructor | Dr. Holly Steeves | USE OWL MESSAGES | WSC 233  | 519-661-2111 x86426 | T 11:00-12:30 |
+|            |                   |                  |          |                     |               |
+|            |                   |                  |          |                     | W 10:00-11:30 |
++------------+-------------------+------------------+----------+---------------------+---------------+
+
+::: callout-warning
+Students must use OWL messages to contact Dr. Holly Steeves. Emails will not be answered.
+:::
+
+## Personal Teaching Approach
+
+I believe that students learn best in an inclusive, welcoming environment that sparks questions, discussions and respect from all sides. For this reason, a typical class will involve a lecture period discussing and explaining the material, broken up with non-graded check ins (through the use of Mentimeter) to assess student understanding. Examples will be used both as part of the lectures, and part of active learning, where the students get time to practice the problems themselves. In cases where feedback from the assessment is immediate (such as with Mentimeter), the lecture may be tailored to sections that were most misunderstood. I welcome relevant disruptions to this lecture period such as with questions or discussion topics. I encourage participation and discussions throughout the lectures, and the active learning components. Throughout all of these components, I strive to be respectful to all learners and their individual learning needs, and I expect you to do the same.
+
+## Instructor Policies
+
+As mentioned above, I expect respect and inclusivity in our classroom. To promote this, I have several policies that you should follow:
+
+-   Please do not be late. If you must be, please enter quietly and choose a seat closest to the door to limit the disruption
+-   Put your phones on silent and refrain from being on them. If you must answer your phone, immediately and quietly leave the room. I understand there are sometimes emergencies, but this should not disrupt other students.
+-   Treat others as you would like to be treated. When speaking for the first time in a new group, introduce yourself with your name, and pronouns if you feel comfortable. Do not judge others for their work in this class, their questions, or anything they choose to share.
+-   When others are speaking, whether it be instructor or student, listen and do not speak over them.
+-   Please allow 1 business day for a response via messages. I will not be answering messages in the evenings, weekends, or holidays, but I will get back to you as soon as possible. The same should be expected of your peers.
+
+# Course Syllabus, Schedule, Delivery Mode
+
+## Course Description
+
+An individual research project on a specific data science problem supervised by a Western faculty member. A written thesis and an oral presentation will be required.
+
+## Learning Outcomes
+
+Upon successful completion of this course, students will be able to:
+
+-   Create a research question / hypothesis and a solution methodology for a problem in the Statistical or Data Sciences that is feasible, well-defined, specific, and relevant.
+
+-   Synthesize the existing literature to position the research in the overall context of its field.
+
+-   Deploy Statistical / Data Science methodologies to solve the research question / test the hypothesis using relevant software.
+
+-   Analyse and interpret the results of their work to arrive at actionable conclusions.
+
+-   Communicate and illustrate the preliminary and final results of the work effectively via oral presentations.
+
+-   Generate a written report in scientific paper format following the scientific standards of the selected research field.
+
+## Tentative Schedule
+
+| Day          | Content                  |
+|--------------|--------------------------|
+| September 15 | Syllabus                 |
+| September 29 | Proposal                 |
+| October 13   | Lightning Talks          |
+| October 27   | READING WEEK             |
+| November 10  | How to: Coding Practices |
+| November 24  | How to: Writing          |
+| December 8   | How to: Presentations    |
+| January 19   | Progress Report          |
+| February 2   | Lightening Talks         |
+| February 16  | Research Ethics          |
+| March 1      | Final Report             |
+| March 15     | Presentations            |
+| March 29     | Presentations            |
+
+# Course Materials
+
+## Recommended Reading
+
+[@lones2021]
+
+[@gastel2022write]
+
+[@nickerson1993dissertation]
+
+[@pautasso2013]
+
+Students are responsible for checking the course OWL site (http://owl.uwo.ca) on a regular basis for news and updates. This is the primary method by which information will be disseminated to all students in the class.
+
+All course material will be posted to OWL: http://owl.uwo.ca.
+
+If students need assistance with the course OWL site, they can seek support on the OWL Help page. Alternatively, they can contact the Western Technology Services Helpdesk. They can be contacted by phone at 519-661-3800 or ext. 83800.
+
+## **Technical Requirements**
+
+A notebook with internet access is required.
+
+# Methods of Evaluation
+
+The overall course grade will be calculated as listed below:
+
+|                            |     |
+|----------------------------|-----|
+| Project Proposal           | 10% |
+| Preliminary Results Report | 20% |
+| Final Report               | 35% |
+| Final Presentation         | 15% |
+| Research Investment Logs   | 10% |
+| Lightening Talks           | 10% |
+
+## Research Investment Logs (RILs)
+
+Time management is one of the biggest challenges you will face during your hours of thesis work. To help you and your supervisor objectively evaluate your progress, you will be required to keep a 'Research Investment Log' in which you keep a broad record of the time you spend on different activities. The form will be posted to OWL. Please fill these out weekly, however, submissions are required every two weeks. Be prepared to bring it to class to aid in discussions about progress and time management. In addition, you are required to email a copy of your up-to-date Research Investment Log to your supervisor when you submit your proposal, your progress reports, and your thesis, to assist them to evaluate your work. Deliberately falsifying your Research Investment Log will adversely affect your supervisor evaluations and may constitute an academic offense.
+
+## Lightening Talks
+
+You have to give two lighting talks in the fall term (See schedule). During the first one, tell us about your project. For the second one, provide an update of your research: what has worked and what has not. Lighting talks are quick and to the point. You will have 5 min and one slide (NO animations) so make the most of it! You have to speak freely without hanging onto notes.
+
+## Project Proposal
+
+The project proposal stage is focused in designing the research question / hypothesis to tackle and placing it in the context of the literature review. During the first month, students will work with their supervisors defining the problem to work on during the thesis year. After the problem has been agreed, these activities follow:
+
+-   a lightening talk will be presented to talk about the research question / hypothesis to tackle, the motivation for the problem (why it is important) and talking about any data sources etc.
+
+-   Project proposal report (Week 6, Deadline in OWL, 10% of final grade, marked by supervisor and one other supervisor): Project report of maximum 2000 words including:
+
+    -   Title.
+
+    -   Tentative abstract.
+
+    -   Introduction discussing the motivation of the problem, the research questions and hypothesis, an introduction to the methodology used and why it was selected and a plan for the paper structure.
+
+    -   Literature review draft with the main works in the area within the context of the paper.
+
+    -   Methodology skeleton (vignette list with plan).
+
+    -   Gantt chart planning the work.
+
+## Preliminary Results Report
+
+-   Preliminary results report (worth 20% of the final grade. Deadline Week 8 of the Winter semester). This section includes a report with the preliminary results, a report, marked by the supervisor and one other supervisor, up to 8000 words including:
+
+    -   Title
+
+    -   Final abstract proposal
+
+    -   Introduction discussing the motivation of the problem, the research questions and hypothesis, an introduction to the methodology used and why it was selected, and the final paper structure.
+
+    -   Literature review
+
+    -   Methodology
+
+    -   Data description
+
+    -   Experimental setting and preliminary results
+
+    -   Conclusions draft
+
+## Final Presentation and Final Report
+
+-   Final Presentation: The last stage of the course includes the final presentation of the thesis and the final report. The final presentation is a 20-minute presentation of the project which must include all topics covered. The presentation will occur during the exam period of the Winter semester and is worth 15% of the final grade.
+
+-   The final presentation will be followed by the final thesis (worth 35% of the final mark), a document in paper format of between 5,000 and 10,000 words. The paper must include the following sections (or similar alternatives if appropriate):
+
+    -   Title.
+
+    -   Abstract
+
+    -   Introduction discussing the motivation of the problem, the research questions anD hypothesis, an introduction to the methodology used and why it was selected, and the final paper structure.
+
+    -   Literature review.
+
+    -   Methodology.
+
+    -   Data description if applicable.
+
+    -   Experimental setting
+
+    -   Results and discussion (or a separate discussion section if appropriate).
+
+    -   Conclusions and future work.
+
+This paper will be marked by the supervisor and another supervisor of a different student. In case there is more than 15%-mark difference, a third member will be invited to moderate the mark. Otherwise, the mark of the report will be the average between the two reviewers' marks.
+
+## Conditions to pass the course
+
+-   Students who are unable to secure a project by the submission of the report (second week of
+    October) **will be eliminated from the course.**
+
+-   As this is an essay course, the written part of the course must be approved with mark over 50%.
+    Students who do not reach that mark will fail the course independently of the mark in the
+    presentation component of the course.
+
+## Accommodated Evaluations
+
+Attendance to all presentation sessions is mandatory and all deadlines are final. In case of excused absences due to illnesses or other excused situations, an alternative date will be agreed for presentations.
+
+For report submissions, the deadline for the report will be 24 hours after the last excused absence.
+
+Unexcused late submissions will be subject to a late penalty of 20% per day, starting at 00:00 the dayafter the submission date.				
+
+# Student Absences
+
+## Academic Consideration for Student Absences
+
+Students who experience an extenuating circumstance (illness, injury or other extenuating circumstance) sufficiently significant to temporarily render them unable to meet academic requirements may submit a request for academic consideration through the following routes:
+
+(i) For medical absences, submitting a Student Medical Certificate (SMC) signed by a licensed medical or mental health practitioner to the Academic Counselling office of their Faculty of Registration.
+
+(ii) Submitting appropriate documentation for non-medical absences to the Academic Counselling office in their Faculty of Registration.
+
+Note that in all cases, students are required to contact their instructors within 24 hours of the end of the period covered, unless otherwise instructed in the course outline.
+
+Students should also note that individual instructors are not permitted to receive documentation directly from a student, whether in support of an application for consideration on medical grounds, or for other reasons. **All documentation required for absences must be submitted to the Academic Counselling office of a student's Home Faculty.**
+
+For the policy on Academic Consideration for Student Absences -- Undergraduate Students in First Entry Programs, see:
+
+    <https://www.uwo.ca/univsec/pdf/academic_policies/appeals/accommodation_illness.pdf>
+
+and for the Student Medical Certificate (SMC), see:
+
+    [http://www.uwo.ca/univsec/pdf/academic_policies/appeals/medicalform.pdf. ](http://www.uwo.ca/univsec/pdf/academic_policies/appeals/medicalform.pdf. )
+
+## Religious Accommodation
+
+When a course requirement conflicts with a religious holiday that requires an absence from the University or prohibits certain activities, students should request accommodation for their absence in writing at least two weeks prior to the holiday to the course instructor and/or the Academic Counselling office of their Faculty of Registration.  Please consult University's list of recognized religious holidays (updated annually) at
+
+    [https://multiculturalcalendar.com/ecal/index.php?s=c-univwo.  ](https://multiculturalcalendar.com/ecal/index.php?s=c-univwo.  )
+
+## Absences from Final Examinations
+
+If you miss the Final Exam, please contact the Academic Counselling office of your Faculty of Registration as soon as you are able to do so.  They will assess your eligibility to write the Special Examination (the name given by the University to a makeup Final Exam).
+
+You may also be eligible to write the Special Exam if you are in a \"Multiple Exam Situation\" (e.g., more than 2 exams in 23-hour period, more than 3 exams in a 47-hour period).
+
+# Accommodation and Accessibility
+
+## Accommodation Policies
+
+Students with disabilities are encouraged to contact Accessible Education, which provides recommendations for accommodation based on medical documentation or psychological and cognitive testing.  The policy on Academic Accommodation for Students with Disabilities can be found at:
+
+[https://www.uwo.ca/univsec/pdf/academic_policies/appeals/Academic Accommodation_disabilities.pdf.](https://www.uwo.ca/univsec/pdf/academic_policies/appeals/Academic Accommodation_disabilities.pdf.)
+
+# Academic Policies
+
+The website for Registrarial Services is <http://www.registrar.uwo.ca>.
+
+In accordance with policy,
+
+    <https://www.uwo.ca/univsec/pdf/policies_procedures/section1/mapp113.pdf>,
+
+the centrally administered e-mail account provided to students will be considered the individual\'s official university e-mail address.  It is the responsibility of the account holder to ensure that e-mail received from the University at his/her official university address is attended to in a timely manner.
+
+**Scholastic offences** are taken seriously and students are directed to read the appropriate policy, specifically, the definition of what constitutes a Scholastic Offence, at the following Web site:
+
+<http://www.uwo.ca/univsec/pdf/academic_policies/appeals/scholastic_discipline_undergrad.pdf>.
+
+All required papers may be subject to submission for textual similarity review to the commercial plagiarism detection software under license to the University for the detection of plagiarism.  All papers submitted for such checking will be included as source documents in the reference database for the purpose of detecting plagiarism of papers subsequently submitted to the system.  Use of the service is subject to the licensing agreement, currently between The University of Western Ontario and Turnitin.com (http://www.turnitin.com).
+
+## Support Services
+
+Please visit the Science & Basic Medical Sciences Academic Counselling webpage for information on adding/dropping courses, academic considerations for absences, appeals, exam conflicts, and many other academic related matters: <https://www.uwo.ca/sci/counselling/>.
+
+Please contact the course instructor if you require lecture or printed material in an alternate format or if any other arrangements can make this course more accessible to you. You may also wish to contact Accessible Education at (519) 661-2147 if you have any questions regarding accommodations.
+
+Western University is committed to a thriving campus as we deliver our courses in the mixed model of both virtual and face-to-face formats. We encourage you to check out the Digital Student Experience website to manage your academics and well-being: <https://www.uwo.ca/se/digital/>.
+
+Learning-skills counsellors at the Student Development Centre (http://www.sdc.uwo.ca) are ready to help you improve your learning skills. They offer presentations on strategies for improving time management, multiple-choice exam preparation/writing, textbook reading, and more. Individual support is offered throughout the Fall/Winter terms in the drop-in Learning Help Centre, and year-round through individual counselling.
+
+Students who are in emotional/mental distress should refer to Mental Health\@Western (<http://www.health.uwo.ca/mentalhealth>) for a complete list of options about how to obtain help.
+
+Additional student-run support services are offered by the USC, <http://westernusc.ca/services>.
