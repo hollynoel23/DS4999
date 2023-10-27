@@ -1,0 +1,248 @@
+---
+title: "Coding Practices"
+format: revealjs
+editor: visual
+---
+
+## Why do we need this?
+
+-   Enhance efficiency - make the code faster, and any edits/ etc you have to do the later!
+
+-   Improve quality - make sure others can read it, maintain it, or even yourself in the future!
+
+-   Facilitate collaboration - allow others to see what your doing and potentially add or change code easily.
+
+## Readability Tips
+
+-   Write as few lines as possible
+
+-   Use good naming structures - ie, avoid generic names like A, B, dat, mat, etc...
+
+-   Use breaks to group sections of code together, or separate different chunks.
+
+-   Use indentations to mark the beginning and end of loops, functions, etc.
+
+-   Keep functions simple! One function, one job.
+
+-   Avoid heavy nesting. Nesting repeatedly is confusing and hard to read.
+
+-   Avoid long lines.
+
+## Create Headers
+
+Comment headers at the top of your code file with the following:
+
+-   Name of file/ function/ etc
+
+-   Name of creator
+
+-   Date of creation
+
+-   Modification history
+
+-   Summary of what the code does
+
+-   Functions in the file
+
+-   Variable descriptions
+
+## Identifier Clarity
+
+-   Make variable names with clear meaning and purpose
+
+-   Don't rename the variable without a reason to do so
+
+-   Don't call something else by the same variable name
+
+## Comments, Comments, Comments!
+
+-   Comment everything. Truly.
+
+-   Every function should have comments explaining the attributes and the input variables. What they are, what dimensions, what type of variable, etc etc
+
+-   Comment when things were last edited, or if you are calling any other functions within the function
+
+-   Comment your purpose to certain lines of code
+
+-   Comment throughout the function/algorithm on what your doing and why.
+
+-   Don't assume anything is "self explanatory"
+
+## Repeatabity
+
+-   People are going to want to be able to repeat your work! Or maybe even YOU will want to!
+
+-   If there is any kind of randomness involved in what you are doing (for example, you are running simulations) you need to be able to repeat exactly what you are doing.
+
+-   Set the random seed!!! And report this random seed in any publications or in your code that gets published so your work can be repeated.
+
+## Reusability
+
+-   Does a function/code exist out there already for what you are doing? On a large scale or small scale? USE IT!
+
+-   Keep it simple! No need to write new code if it exists.
+
+-   On the other hand, your code may be used in other sections or your own code or by someone else. Divide into small functions if you are going to continue to do the same thing!
+
+## Points to keep in mind:
+
+-   Maintainability - the ease of maintaining your code. What if updates happen and it doesn't work anymore? How easy will it be to update your code?
+
+-   Dependability - How trustworthy is your code? Will it fail if there are updates that occur?
+
+-   Efficiency - Can your code do things well, and successfully, without too many lines of code, too much computing time, or use of excess variables?
+
+-   Usability - How user friendly is your code? Will anybody be able to read your comments and notes and figure it out? Or do they have to have an in depth knowledge of everything already?
+
+## Example: 
+
+::: panel-tabset
+## Raw
+
+``` python
+
+X = [[1,2,3],
+    [4 ,5,6],
+    [7 ,8,9]]
+ 
+Y = [[9,8,7],
+    [6,5,4],
+    [3,2,1]]
+ 
+
+def square(x,y):
+result = [[0,0,0],
+         [0,0,0],
+         [0,0,0]]
+         
+for i in range(len(X)):   
+for j in range(len(X[0])):
+result[i][j] = X[i][j] + Y[i][j]
+return(result)
+
+square(X,Y)
+```
+
+## Add Indents
+
+``` python
+X = [[1,2,3],
+    [4 ,5,6],
+    [7 ,8,9]]
+ 
+Y = [[9,8,7],
+    [6,5,4],
+    [3,2,1]]
+ 
+
+def square(x,y):
+  result = [[0,0,0],
+         [0,0,0],
+         [0,0,0]]
+         
+  for i in range(len(X)):   
+   for j in range(len(X[0])):
+      result[i][j] = X[i][j] + Y[i][j]
+      
+  return(result)
+
+square(X,Y)
+```
+
+## Add Comments
+
+``` python
+# X variable (3x3 matrix) representing ....
+X = [[1,2,3],
+    [4 ,5,6],
+    [7 ,8,9]]
+
+# Y variable (3x3 matrix) representing ....
+Y = [[9,8,7],
+    [6,5,4],
+    [3,2,1]]
+ 
+# Creating a function called addmat which adds two 3x3 matrices element-wise
+# passed a matrix X of size 3x3
+# Passed a matrix Y of size 3x3
+# returns a matrix of size 3x3
+def addmat(x,y):
+  
+  # initiating the values of variable result which will be the result of the addition
+  result = [[0,0,0],
+         [0,0,0],
+         [0,0,0]]
+         
+  # for loop to run over the elements in the external list       
+  for i in range(len(X)): 
+    
+    # for loop to run over the elements in the internal lists
+    for j in range(len(X[0])):
+      
+      result[i][j] = X[i][j] + Y[i][j]
+      
+  # return the resulting matrix
+  return(result)
+
+# calling the function to add X and Y element-wise
+addmat(X,Y)
+```
+
+## Add Header
+
+``` python
+# Name of file: AddmatFunction
+# Name of function(s): Addmat
+# Created by: Holly Steeves
+# Created on: Oct 25, 2023
+# Modified: Oct 27 2023 - added commenting
+# Includes a function called addmat that adds two matrices together element by element. This function is then used to add two matrices X and Y together.
+# X: variable (3x3) representing ...
+# Y: variable (3x3) representing ...
+###########################################################################
+
+
+# X variable (3x3 matrix) representing ....
+X = [[1,2,3],
+    [4 ,5,6],
+    [7 ,8,9]]
+
+# Y variable (3x3 matrix) representing ....
+Y = [[9,8,7],
+    [6,5,4],
+    [3,2,1]]
+ 
+# Creating a function called addmat which adds two 3x3 matrices element-wise
+# passed a matrix X of size 3x3
+# Passed a matrix Y of size 3x3
+# returns a matrix of size 3x3
+def addmat(x,y):
+  
+  # initiating the values of variable result which will be the result of the addition
+  result = [[0,0,0],
+         [0,0,0],
+         [0,0,0]]
+         
+  # for loop to run over the elements in the external list       
+  for i in range(len(X)): 
+    
+    # for loop to run over the elements in the internal lists
+    for j in range(len(X[0])):
+      
+      result[i][j] = X[i][j] + Y[i][j]
+      
+  # return the resulting matrix
+  return(result)
+
+# calling the function to add X and Y element-wise
+addmat(X,Y)
+```
+:::
+
+## Resources: 
+
+-   <https://www.browserstack.com/guide/coding-standards-best-practices>
+
+-   <https://www.thinkful.com/blog/coding-best-practices/>
+
+-   <https://en.wikipedia.org/wiki/Coding_best_practices>
